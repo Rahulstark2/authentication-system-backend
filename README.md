@@ -83,8 +83,6 @@ npx prisma generate
 # Run database migrations
 npx prisma migrate dev
 
-# (Optional) Seed the database
-npx prisma db seed
 ```
 
 ### 5. Start the Application
@@ -101,7 +99,7 @@ npm start
 
 The server will start on `http://localhost:3000` (or the port specified in your `.env` file).
 
-## �� API Endpoints
+## API Endpoints
 
 ### Authentication Routes (`/auth`)
 
